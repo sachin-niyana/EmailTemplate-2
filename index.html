@@ -33,95 +33,106 @@
 
     <!-- Meta Tags Generated with https://metatags.io -->
   </head>
-  <body>
-    <style>
+  <style>
+    .addbutton {
+      width: 163px;
+      padding: 12px 14px;
+      border-radius: 7px;
+      border: 2px solid black;
+      background-color: #000;
+      color: white;
+    }
+    .watchbutton {
+      width: 163px;
+      padding: 12px 14px;
+      border-radius: 7px;
+      border: 2px solid black;
+      background-color: white;
+      color: black;
+    }
+    .comment {
+      width: 100px;
+      height: 100px;
+    }
+    .p-44 {
+      padding: 0px 44px;
+    }
+    .gray-box {
+      padding: 43px 45px;
+    }
+    .ml-12 {
+      margin-left: 12px;
+    }
+    .pl-8 {
+      padding-left: 8px;
+    }
+    .line {
+      width: 27px;
+    }
+    .font-700 {
+      font-weight: 700;
+    }
+    .text-44 {
+      font-size: 44px;
+    }
+    @media (max-width: 640px) {
+      .line {
+        width: 0px;
+      }
+    }
+    @media (max-width: 576px) {
+      .comment {
+        width: 80px;
+        height: 80px;
+      }
+      .text-44 {
+        font-size: 38px;
+      }
+      .font-700 {
+        font-weight: 600;
+      }
+      .p-44 {
+        padding: 12px;
+      }
+      .gray-box {
+        padding: 43px 012px;
+      }
       .addbutton {
-        width: 163px;
-        padding: 12px 14px;
+        width: 135px;
+        padding: 8px 8px;
         border-radius: 7px;
         border: 2px solid black;
         background-color: #000;
         color: white;
       }
       .watchbutton {
-        width: 163px;
-        padding: 12px 14px;
+        width: 140px;
+        padding: 8px 8px;
         border-radius: 7px;
         border: 2px solid black;
         background-color: white;
         color: black;
       }
-      .comment {
-        width: 100px;
-        height: 100px;
-      }
-      .p-44 {
-        padding: 0px 44px;
-      }
-      .gray-box {
-        padding: 43px 45px;
-      }
       .ml-12 {
-        margin-left: 12px;
+        margin-left: 5px;
       }
       .pl-8 {
-        padding-left: 8px;
+        padding-left: 0px;
       }
-      .line {
-        width: 27px;
-      }
-      .font-700 {
-        font-weight: 700;
-      }
-      .text-44 {
-        font-size: 44px;
-      }
-      @media (max-width: 640px) {
-        .line {
-          width: 0px;
-        }
-      }
-      @media (max-width: 576px) {
-        .comment {
-          width: 80px;
-          height: 80px;
-        }
-        .text-44 {
-          font-size: 38px;
-        }
-        .font-700 {
-          font-weight: 600;
-        }
-        .p-44 {
-          padding: 12px;
-        }
-        .gray-box {
-          padding: 43px 012px;
-        }
-        .addbutton {
-          width: 135px;
-          padding: 8px 8px;
-          border-radius: 7px;
-          border: 2px solid black;
-          background-color: #000;
-          color: white;
-        }
-        .watchbutton {
-          width: 140px;
-          padding: 8px 8px;
-          border-radius: 7px;
-          border: 2px solid black;
-          background-color: white;
-          color: black;
-        }
-        .ml-12 {
-          margin-left: 5px;
-        }
-        .pl-8 {
-          padding-left: 0px;
-        }
-      }
-    </style>
+    }
+  </style>
+  <body>
+    <div style="text-align: center; display: grid; justify-items: center">
+      <table>
+        <tr>
+          <td><a style="padding: 10px" href="./index.html">1</a></td>
+          <td><a style="padding: 10px" href="./indextwo.html">2</a></td>
+          <td><a style="padding: 10px" href="./indexthree.html">3</a></td>
+          <td><a style="padding: 10px" href="./index-four.html">4</a></td>
+          <td><a style="padding: 10px" href="./indexfive.html">5</a></td>
+        </tr>
+      </table>
+    </div>
     <div style="background-color: #f6fbff">
       <div
         style="
@@ -235,7 +246,11 @@
             <tr>
               <td style="padding: 0px">
                 <img
-                  style="height: 748px; padding-bottom: 118px"
+                  style="
+                    height: 730px;
+                    padding-bottom: 110px;
+                    margin-right: 15px;
+                  "
                   class="line"
                   src="/png/line.png"
                   alt="line"
@@ -347,11 +362,14 @@
                 <table>
                   <tr>
                     <td style="padding: 0px">
-                      <div class="addbutton" style="margin-left: 0px">
-                        <h4
+                      <div
+                        class="addbutton"
+                        style="margin-left: 0px; text-align: center"
+                      >
+                        <a
                           style="
                             margin: 0;
-                            text-align: center;
+
                             font-family: Inter;
                             font-size: 14px;
                             font-style: normal;
@@ -367,17 +385,20 @@
                               height: 20px;
                             "
                             class="pl-8"
-                            ><img src="/png/arrow.png" alt="arrow"
+                            ><img
+                              style="width: 20px; height: 20px"
+                              src="/png/arrow.png"
+                              alt="arrow"
                           /></span>
-                        </h4>
+                        </a>
                       </div>
                     </td>
-                    <td style="padding: 0px">
+                    <td style="padding: 0px; text-align: center">
                       <div class="watchbutton ml-12">
-                        <h4
+                        <a
                           style="
                             margin: 0;
-                            text-align: center;
+
                             font-family: Inter;
                             font-size: 14px;
                             font-style: normal;
@@ -393,9 +414,12 @@
                               height: 20px;
                             "
                             class="pl-8"
-                            ><img src="/png/play.png" alt="play"
+                            ><img
+                              style="width: 20px; height: 20px"
+                              src="/png/play.png"
+                              alt="play"
                           /></span>
-                        </h4>
+                        </a>
                       </div>
                     </td>
                   </tr>
@@ -458,11 +482,14 @@
                 <table>
                   <tr>
                     <td style="padding: 0px">
-                      <div class="addbutton" style="margin-left: 0px">
-                        <h4
+                      <div
+                        class="addbutton"
+                        style="margin-left: 0px; text-align: center"
+                      >
+                        <a
                           style="
                             margin: 0;
-                            text-align: center;
+
                             font-family: Inter;
                             font-size: 14px;
                             font-style: normal;
@@ -478,17 +505,19 @@
                               height: 20px;
                             "
                             class="pl-8"
-                            ><img src="/png/arrow.png" alt="arrow"
+                            ><img
+                              style="width: 20px; height: 20px"
+                              src="/png/arrow.png"
+                              alt="arrow"
                           /></span>
-                        </h4>
+                        </a>
                       </div>
                     </td>
-                    <td style="padding: 0px">
+                    <td style="padding: 0px; text-align: center">
                       <div class="watchbutton ml-12">
-                        <h4
+                        <a
                           style="
                             margin: 0;
-                            text-align: center;
                             font-family: Inter;
                             font-size: 14px;
                             font-style: normal;
@@ -504,9 +533,12 @@
                               height: 20px;
                             "
                             class="pl-8"
-                            ><img src="/png/play.png" alt="play"
+                            ><img
+                              style="width: 20px; height: 20px"
+                              src="/png/play.png"
+                              alt="play"
                           /></span>
-                        </h4>
+                        </a>
                       </div>
                     </td>
                   </tr>
@@ -540,113 +572,27 @@
                 <table style="padding-top: 11px; margin-left: 0px">
                   <tr>
                     <td style="padding: 0px">
-                      <table
-                        style="
-                          width: 163px;
-                          padding: 8px 10px;
-                          border: 2px solid #e1e1e1;
-                          border-radius: 7px;
-                        "
+                      <a
+                        href="https://play.google.com/store/movies?hl=en&gl=US"
                       >
-                        <tr>
-                          <td style="padding: 0px">
-                            <div>
-                              <img
-                                style="
-                                  padding-right: 8px;
-                                  width: 25px;
-                                  height: 25px;
-                                "
-                                src="/png/apple.png"
-                                alt="apple"
-                              />
-                            </div>
-                          </td>
-                          <td style="padding: 0px">
-                            <h4
-                              style="
-                                color: #040503;
-                                font-family: Inter;
-                                font-size: 12px;
-                                font-style: normal;
-                                font-weight: 300;
-                                line-height: normal;
-                                margin: 0;
-                              "
-                            >
-                              Download on the
-                              <span
-                                style="
-                                  color: #040503;
-                                  text-align: center;
-                                  font-family: Inter;
-                                  font-size: 14px;
-                                  font-style: normal;
-                                  font-weight: 600;
-                                  line-height: normal;
-                                  margin: 0;
-                                "
-                                >App Store</span
-                              >
-                            </h4>
-                          </td>
-                        </tr>
-                      </table>
+                        <img
+                          style="width: 145px; height: 46px"
+                          class="pl-24"
+                          src="/png/appstore.png"
+                          alt="playstore"
+                        />
+                      </a>
                     </td>
                     <td style="padding: 0px">
-                      <table
-                        style="
-                          width: 163px;
-                          padding: 8px 10px;
-                          border: 2px solid #e1e1e1;
-                          border-radius: 7px;
-                          margin-left: 6px;
-                        "
+                      <a
+                        href="https://play.google.com/store/movies?hl=en&gl=US"
                       >
-                        <tr>
-                          <td style="padding: 0px">
-                            <div>
-                              <img
-                                style="
-                                  padding-right: 8px;
-                                  width: 25px;
-                                  height: 25px;
-                                "
-                                src="/png/games.png"
-                                alt="games"
-                              />
-                            </div>
-                          </td>
-                          <td style="padding: 0px">
-                            <h4
-                              style="
-                                color: #040503;
-                                font-family: Inter;
-                                font-size: 12px;
-                                font-style: normal;
-                                font-weight: 300;
-                                line-height: normal;
-                                margin: 0;
-                              "
-                            >
-                              Download on the
-                              <span
-                                style="
-                                  color: #040503;
-                                  text-align: center;
-                                  font-family: Inter;
-                                  font-size: 14px;
-                                  font-style: normal;
-                                  font-weight: 600;
-                                  line-height: normal;
-                                  margin: 0;
-                                "
-                                >App Store</span
-                              >
-                            </h4>
-                          </td>
-                        </tr>
-                      </table>
+                        <img
+                          style="width: 145px; height: 46px; padding-left: 20px"
+                          src="/png/playstore.png"
+                          alt="playstore"
+                        />
+                      </a>
                     </td>
                   </tr>
                 </table>
@@ -703,13 +649,18 @@
                         "
                       >
                         Check your email for an invitation from
-                        <span style="color: #6ccad2">
+                        <a
+                          href="mailto:notification@fbworkmail.com"
+                          style="color: #6ccad2; text-decoration: none"
+                        >
                           notification@fbworkmail.com
-                        </span>
+                        </a>
                         to join Real on Workplace, our virtual community. Then,
                         head to
-                        <span style="color: #6ccad2"
-                          >https://realbroker.workplace.com/</span
+                        <a
+                          href="https://realbroker.workplace.com/"
+                          style="color: #6ccad2; text-decoration: none"
+                          >https://realbroker.workplace.com/</a
                         >
                         to access our incredible community of agents.
                       </p>
@@ -794,35 +745,51 @@
                     </span>
                   </h3>
 
-                  <p
-                    style="
-                      color: #000;
-                      font-family: Inter;
-                      font-size: 14px;
-                      font-style: normal;
-                      font-weight: 400;
-                      line-height: 150%;
-                      margin: 0;
-                      padding-top: 11px;
-                      max-width: 265px;
-                    "
-                  >
-                    ✉️ support@therealbrokerage.com
-                  </p>
-                  <p
-                    style="
-                      color: #000;
-                      font-family: Inter;
-                      font-size: 14px;
-                      font-style: normal;
-                      font-weight: 400;
-                      line-height: 150%;
-                      margin: 0;
-                      padding-top: 11px;
-                    "
-                  >
-                    📞 +1 (909) 403-6143
-                  </p>
+                  <table>
+                    <tr>
+                      <td>
+                        <a
+                          href="mailto:support@therealbrokerage.com"
+                          style="
+                            color: #000;
+                            font-family: Inter;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 150%;
+                            margin: 0;
+                            padding-top: 11px;
+                            max-width: 265px;
+                            text-decoration: none;
+                          "
+                        >
+                          ✉️ support@therealbrokerage.com
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                  <table style="margin-top: 10px">
+                    <tr>
+                      <td>
+                        <a
+                          href="tel:+1 (909) 403-6143"
+                          style="
+                            color: #000;
+                            font-family: Inter;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 150%;
+                            margin: 0;
+                            padding-top: 11px;
+                            text-decoration: none;
+                          "
+                        >
+                          📞 +1 (909) 403-6143
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
                 </td>
                 <td style="width: 50%">
                   <div style="text-align: end">
@@ -833,45 +800,55 @@
             </table>
           </div>
         </div>
-        <div style="padding: 0px 44px; margin-left: auto; margin-right: auto">
+        <div class="p-44" style="background-color: #f6fbff">
           <table
             style="margin-left: auto; margin-right: auto; padding-top: 35px"
           >
             <tr>
               <td style="padding-right: 18px">
-                <img
-                  style="width: 25px; height: 25px"
-                  src="png/facebook.png"
-                  alt="facebook"
-                />
+                <a href="https://www.facebook.com/">
+                  <img
+                    style="width: 25px; height: 25px"
+                    src="png/facebook.png"
+                    alt="facebook"
+                  />
+                </a>
               </td>
               <td style="padding-right: 18px">
-                <img
-                  style="width: 25px; height: 25px"
-                  src="png/twitter.png"
-                  alt="twitter"
-                />
+                <a href="https://twitter.com/i/flow/login">
+                  <img
+                    style="width: 25px; height: 25px"
+                    src="png/twitter.png"
+                    alt="twitter"
+                  />
+                </a>
               </td>
               <td style="padding-right: 18px">
-                <img
-                  style="width: 25px; height: 25px"
-                  src="png/youtube.png"
-                  alt="youtube"
-                />
+                <a href="https://www.youtube.com/">
+                  <img
+                    style="width: 25px; height: 25px"
+                    src="png/youtube.png"
+                    alt="youtube"
+                  />
+                </a>
               </td>
               <td style="padding-right: 18px">
-                <img
-                  style="width: 25px; height: 25px"
-                  src="png/instagram.png"
-                  alt="instagram"
-                />
+                <a href="https://www.instagram.com/">
+                  <img
+                    style="width: 25px; height: 25px"
+                    src="png/instagram.png"
+                    alt="instagram"
+                  />
+                </a>
               </td>
               <td style="padding: 0px">
-                <img
-                  style="width: 25px; height: 25px"
-                  src="png/linkdin.png"
-                  alt="linkdin"
-                />
+                <a href="https://in.linkedin.com/">
+                  <img
+                    style="width: 25px; height: 25px"
+                    src="png/linkdin.png"
+                    alt="linkdin"
+                  />
+                </a>
               </td>
             </tr>
           </table>
@@ -931,6 +908,7 @@
               text-align: center;
               margin: 0;
               padding-top: 2px;
+              padding-bottom: 35px;
             "
           >
             Unsubscribe Preferences
