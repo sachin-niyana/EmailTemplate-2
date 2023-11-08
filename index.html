@@ -54,9 +54,6 @@
       width: 100px;
       height: 100px;
     }
-    .p-44 {
-      padding: 0px 44px;
-    }
     .gray-box {
       padding: 43px 45px;
     }
@@ -72,8 +69,11 @@
     .font-700 {
       font-weight: 700;
     }
-    .text-44 {
+    .text-lg {
       font-size: 44px;
+    }
+    .text-md {
+      font-size: 32px;
     }
     @media (max-width: 640px) {
       .line {
@@ -85,13 +85,16 @@
         width: 80px;
         height: 80px;
       }
-      .text-44 {
+      .text-lg {
         font-size: 38px;
+      }
+      .text-md {
+        font-size: 32px;
       }
       .font-700 {
         font-weight: 600;
       }
-      .p-44 {
+      .p-12 {
         padding: 12px;
       }
       .gray-box {
@@ -137,18 +140,15 @@
       <div
         style="
           max-width: 650px;
-          /* padding-left: 12px;
-          padding-right: 12px; */
           background-color: #ffffff;
-          margin-left: auto;
-          margin-right: auto;
+          margin: 0px auto;
           padding-top: 50px;
           padding-bottom: 50px;
         "
       >
         <img
-          style="padding-bottom: 21px; width: 100px; height: 50px"
-          class="p-44"
+          style="padding: 0px 44px 21px 44px; width: 100px; height: 50px"
+          class="p-12"
           src="/png/button-1.png"
           alt="button-1"
         />
@@ -157,24 +157,22 @@
           src="/png/video.png"
           alt="video"
         />
-        <div style="max-width: 650px" class="p-44">
-          <h3
-            class="text-44"
+        <div style="max-width: 650px; padding: 0px 44px" class="p-12">
+          <h1
+            class="text-lg"
             style="
               color: #040503;
               font-family: Poppins;
-
               font-style: normal;
               font-weight: 300;
               line-height: 130%;
-              padding-top: 16px;
-              padding-bottom: 8px;
+              padding: 20px 0px 8px 0px;
               margin: 0;
             "
           >
             Welcome to
             <span
-              class="text-44"
+              class="text-lg"
               style="
                 color: #040503;
                 font-family: Poppins;
@@ -184,7 +182,7 @@
               "
               >Real</span
             >
-          </h3>
+          </h1>
           <p
             style="
               color: #686968;
@@ -219,6 +217,7 @@
             tools to get up and running the way YOU want.
           </p>
           <h3
+            class="text-md"
             style="
               color: #000;
               font-family: Poppins;
@@ -266,13 +265,7 @@
                         alt="ok"
                       />
                     </td>
-                    <td
-                      style="
-                        max-width: 498px;
-                        padding-top: 11px;
-                        padding-bottom: 28px;
-                      "
-                    >
+                    <td style="max-width: 498px; padding: 11px 0px 28px 0px">
                       <h4
                         style="
                           color: #040503;
@@ -362,65 +355,69 @@
                 <table>
                   <tr>
                     <td style="padding: 0px">
-                      <div
-                        class="addbutton"
-                        style="margin-left: 0px; text-align: center"
-                      >
+                      <p style="padding: 0px">
                         <a
                           style="
-                            margin: 0;
-
+                            padding: 14px 15px;
+                            background-color: #000;
+                            color: #fff;
                             font-family: Inter;
                             font-size: 14px;
                             font-style: normal;
                             font-weight: 500;
                             line-height: normal;
+                            text-decoration: none;
+                            margin: 0;
+                            border-radius: 7px;
                           "
+                          href="https://rsccd.edu/WebAccessibility/Documents/ACCESS-CHECKLIST.pdf"
                         >
                           Add to Calendar
-                          <span
+                          <img
                             style="
                               vertical-align: middle;
-                              width: 20px;
-                              height: 20px;
+                              margin-left: 8px;
+                              width: 13px;
+                              height: 13px;
                             "
-                            class="pl-8"
-                            ><img
-                              style="width: 20px; height: 20px"
-                              src="/png/arrow.png"
-                              alt="arrow"
-                          /></span>
+                            src="/png/arrow.png"
+                            alt="arrow"
+                          />
                         </a>
-                      </div>
+                      </p>
                     </td>
                     <td style="padding: 0px; text-align: center">
-                      <div class="watchbutton ml-12">
+                      <p style="padding: 0px 0px 0px 24px">
                         <a
                           style="
-                            margin: 0;
-
+                            padding: 12px 14px;
+                            background-color: #fff;
+                            color: #000;
                             font-family: Inter;
                             font-size: 14px;
                             font-style: normal;
                             font-weight: 500;
+                            border: 2px solid black;
                             line-height: normal;
+                            text-decoration: none;
+                            margin: 0;
+                            border-radius: 7px;
                           "
+                          href="https://rsccd.edu/WebAccessibility/Documents/ACCESS-CHECKLIST.pdf"
                         >
                           Watch Recording
-                          <span
+                          <img
                             style="
                               vertical-align: middle;
-                              width: 20px;
-                              height: 20px;
+                              margin-left: 8px;
+                              width: 15px;
+                              height: 15px;
                             "
-                            class="pl-8"
-                            ><img
-                              style="width: 20px; height: 20px"
-                              src="/png/play.png"
-                              alt="play"
-                          /></span>
+                            src="/png/play.png"
+                            alt="arrow"
+                          />
                         </a>
-                      </div>
+                      </p>
                     </td>
                   </tr>
                 </table>
@@ -482,64 +479,69 @@
                 <table>
                   <tr>
                     <td style="padding: 0px">
-                      <div
-                        class="addbutton"
-                        style="margin-left: 0px; text-align: center"
-                      >
+                      <p style="padding: 0px">
                         <a
                           style="
-                            margin: 0;
-
+                            padding: 14px 15px;
+                            background-color: #000;
+                            color: #fff;
                             font-family: Inter;
                             font-size: 14px;
                             font-style: normal;
                             font-weight: 500;
                             line-height: normal;
+                            text-decoration: none;
+                            margin: 0;
+                            border-radius: 7px;
                           "
+                          href="https://rsccd.edu/WebAccessibility/Documents/ACCESS-CHECKLIST.pdf"
                         >
                           Add to Calendar
-                          <span
+                          <img
                             style="
                               vertical-align: middle;
-                              width: 2px;
-                              height: 20px;
+                              margin-left: 8px;
+                              width: 13px;
+                              height: 13px;
                             "
-                            class="pl-8"
-                            ><img
-                              style="width: 20px; height: 20px"
-                              src="/png/arrow.png"
-                              alt="arrow"
-                          /></span>
+                            src="/png/arrow.png"
+                            alt="arrow"
+                          />
                         </a>
-                      </div>
+                      </p>
                     </td>
                     <td style="padding: 0px; text-align: center">
-                      <div class="watchbutton ml-12">
+                      <p style="padding: 0px 0px 0px 24px">
                         <a
                           style="
-                            margin: 0;
+                            padding: 12px 14px;
+                            background-color: #fff;
+                            color: #000;
                             font-family: Inter;
                             font-size: 14px;
                             font-style: normal;
                             font-weight: 500;
+                            border: 2px solid black;
                             line-height: normal;
+                            text-decoration: none;
+                            margin: 0;
+                            border-radius: 7px;
                           "
+                          href="https://rsccd.edu/WebAccessibility/Documents/ACCESS-CHECKLIST.pdf"
                         >
                           Watch Recording
-                          <span
+                          <img
                             style="
                               vertical-align: middle;
-                              width: 20px;
-                              height: 20px;
+                              margin-left: 8px;
+                              width: 15px;
+                              height: 15px;
                             "
-                            class="pl-8"
-                            ><img
-                              style="width: 20px; height: 20px"
-                              src="/png/play.png"
-                              alt="play"
-                          /></span>
+                            src="/png/play.png"
+                            alt="arrow"
+                          />
                         </a>
-                      </div>
+                      </p>
                     </td>
                   </tr>
                 </table>
@@ -606,8 +608,7 @@
                     line-height: 150%;
                     padding-left: 5px;
                     margin: 0;
-                    padding-top: 11px;
-                    padding-bottom: 28px;
+                    padding: 11px 0px 21px 0px;
                   "
                 >
                   How to Install the Mobile Application
@@ -643,9 +644,9 @@
                           font-style: normal;
                           font-weight: 400;
                           line-height: 150%;
+                          max-width: 460px;
                           margin: 0;
-                          padding-top: 11px;
-                          padding-bottom: 28px;
+                          padding: 11px 0px 28px 0px;
                         "
                       >
                         Check your email for an invitation from
@@ -674,6 +675,7 @@
         <div style="background-color: #f2f2f2">
           <div class="gray-box">
             <h3
+              class="text-md"
               style="
                 color: #040503;
                 font-family: Poppins;
@@ -708,6 +710,7 @@
                 font-weight: 400;
                 line-height: 169.187%;
                 margin: 0;
+                max-width: 480px;
                 padding-top: 11px;
               "
             >
@@ -718,6 +721,7 @@
               <tr>
                 <td style="width: 100%">
                   <h3
+                    class="text-md"
                     style="
                       color: #040503;
                       font-family: Poppins;
@@ -800,10 +804,8 @@
             </table>
           </div>
         </div>
-        <div class="p-44" style="background-color: #f6fbff">
-          <table
-            style="margin-left: auto; margin-right: auto; padding-top: 35px"
-          >
+        <div class="p-12" style="background-color: #f6fbff; padding: 0px 44px">
+          <table style="margin: 0px auto; padding-top: 35px">
             <tr>
               <td style="padding-right: 18px">
                 <a href="https://www.facebook.com/">
