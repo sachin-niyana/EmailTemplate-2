@@ -1,0 +1,12 @@
+{
+  "folders": [
+	{
+		"name": "EmailTemplate-1",
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.port": 5502,
+    "liveServer.settings.multiRootWorkspaceName": "EmailTemplate-1"
+  }
+}
